@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                #formlienhe {
+        width: 50%;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        }
+
+        .ten label,.mail label,.massage label {
+        display: block;
+        margin-bottom: 10px;
+        }
+
+        .ten input,.mail input,.massage textarea {
+        width: 97%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        }
+
+        .ten input:focus,.mail input:focus,.massage textarea:focus {
+        border-color: #aaa;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <form id="formlienhe">
+        <div class="ten">
+            <label for="name">Tên của bạn</label><br>
+            <input type="text">
+        </div>
+        <div class="mail">
+            <label for="email">Email của bạn</label><br>
+            <input type="text">
+        </div>
+        <div class="massage">
+            <label for="massage">Lời nhắn của bạn</label><br>
+            <textarea></textarea>
+        </div>
+        <button>Gửi</button>
+    </form>
+</body>
+</html>

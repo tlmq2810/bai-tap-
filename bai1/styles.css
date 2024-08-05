@@ -1,0 +1,10 @@
+.navbar{
+    background: rgb(64, 64, 64);
+    height: 40px ;
+    line-height: 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
